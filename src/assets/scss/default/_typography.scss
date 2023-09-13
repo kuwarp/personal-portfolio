@@ -14,74 +14,7 @@ html {
 	padding: 0;
 	font-size: 10px;
 }
-.form-group input,
-        .form-group textarea,
-        .rn-accordion-style.rn-accordion-02 .card .card-header,
-        .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper .mega-menu-item,
-        .breadcarumb-style-1,
-        .rn-accordion-style.rn-accordion-03 .card .card-header,
-        .rn-accordion-style.rn-accordion-04 .card,
-        .rn-pricing .pricing-table-inner,
-        input[type="text"],
-        input[type="password"],
-        input[type="email"],
-        input[type="number"],
-        input[type="tel"],
-        textarea,
-        .rbt-single-widget,
-        .rbt-single-widget.widget_recent_comments ul li+li,
-        .rbt-single-widget.widget_recent_entries ul li+li,
-        .rbt-single-widget.widget_archive ul li+li,
-        .rbt-single-widget.widget_categories ul li+li,
-        .rbt-single-widget.widget_meta ul li+li,
-        .rbt-single-widget.widget_pages ul li+li,
-        .rbt-single-widget.widget_nav_menu ul li+li ,
-        .tagcloud a, 
-        .wp-block-tag-cloud a,
-        .section-title-2 .title,
-        .popup-mobile-menu .mainmenu li + li ,
-        .clltoaction-style-default.style-7 .content-wrapper,
-        .copyright-style-one,
-        .footer-style-default .newsletter-form .form-group input,
-        .newsletter-area .border-top-bottom {
-            border-color: #00000024 !important;
-        }
-		body .single-timeline .single-content,
-		body .rn-card,
-		body .clltoaction-style-default.style-5 .content-wrapper,
-		body .header-default,
-		body .mainmenu-nav .mainmenu li.has-droupdown .submenu,
-		body .service.gallery-style,
-		body .rn-box-card .inner,
-		body .team-style-default .inner,
-		body .rn-accordion-style .card,
-		body .section-title .subtitle,
-		body .card-box.card-style-1,
-		body .list-icon li .icon,
-		body .counter-style-2 .count-number,
-		body .rn-pricing.style-2 .pricing-table-inner,
-		body .rn-default-tab .rn-tab-content,
-		body .rn-default-tab .tab-button .react-tabs__tab.react-tabs__tab--selected,
-		body .advance-tab-button-1 .tab-button-list .tab-button::before,
-		body .advance-pricing .pricing-left,
-		body .rn-pricing.style-5 .pricing-table-inner,
-		body .about-style-5 .about-wrapper,
-		body .rn-sub-badge,
-		body .about-style-6 .wrapper::after,
-		body .box-grid-layout .rwt-card,
-		body .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper,
-		body .social-default  a,
-		body .clltoaction-style-default.style-4 .content-wrapper,
-		body .rn-address,
-		body .rbt-single-widget .title ,
-		body .frame-image ,
-		body .rn-back-top,
-		body .popup-mobile-menu .inner,
-		body .rn-call-to-action.style-8,
-		body .bg-overlay-solid::before {
-			background: #f5f8fa;
-		}
-		
+
 body {
 	overflow: hidden;
 	font-size: var(--font-size-b2);;
@@ -91,7 +24,7 @@ body {
 	font-family: var(--font-primary);
 	color: var(--color-body);
 	font-weight: var(--p-regular);
-	// background-color: var(--color-dark);
+	background-color: var(--color-dark);
 	margin: 0;
     padding: 0;
 }
@@ -478,15 +411,9 @@ kbd {
 }
 
 
-.copyright-style-one .ft-menu li a:hover ,
-.footer-style-default .footer-top .rn-footer-widget .footer-link li a:hover{
-	color: var(--color-primary);
-}
 
 
-body .footer-style-default,
-body .copyright-style-one {
-    background: #111111 !important;
-}
+
+
 
 

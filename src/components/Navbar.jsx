@@ -1,7 +1,7 @@
 import {useState, useRef} from 'react'
 
 import { FiMenu } from "react-icons/fi";
-import { MobileMenu,useStickyHeader,Nav } from '../common';
+import { MobileMenu,useStickyHeader,Nav, Darkmode } from '../common';
 
 const Navbar = ( {btnStyle, HeaderSTyle}) => {
   const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -27,15 +27,18 @@ const Navbar = ( {btnStyle, HeaderSTyle}) => {
                 </div>
                 <div className="col-lg-9 col-md-6 col-8 position-static">
                     <div className="header-right">
+                    <Darkmode />
                         <nav className="mainmenu-nav d-none d-lg-block">
+                            
                             <Nav />
                         </nav>
                         
                         <div className="mobile-menu-bar ml--5 d-block d-lg-none">
-                            <div className="hamberger">
-                                <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
-                            </div>
-                        </div>
+                                    <div className="hamberger">
+                                        <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
+                                    </div>
+                                   
+                                </div>
                         
                     </div>  
                 </div>

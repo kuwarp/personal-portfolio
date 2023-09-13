@@ -34,7 +34,7 @@ function ContactForm({props , formStyle}) {
     //     showresult(false);
     // }, 5000);
     const formRef = useRef(null)
-    const scriptUrl = "https://script.google.com/macros/s/AKfycby93_5ID1TGmw8GxhIn_8UbkvGzhfDIQFiUz8SkA1rN0HGumTvUXCd0Vn2Zvi1xA136/exec"
+    const scriptUrl = ""
     // const [loading, setLoading] = useState(false)
     
     const handleSubmit = (e) =>{

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import Darkmode from './Darkmode';
 
 const Nav = () => {
     return (
@@ -30,7 +31,9 @@ const Nav = () => {
              </li>
             <li><Link to="/pricing">Offer-Pricing</Link></li>
             <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
+           
         </ul>
+       
     )
 }
 export default Nav;
